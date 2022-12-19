@@ -17,7 +17,7 @@ def func1(P1, P2, bool, check1, check2, z, b, c, d, e, f, g, h, i, j, k, l, row1
               row1, row2, row3, col1, col2, col3, rang1, rang2, rang3, vert1, vert2, vert3)
 
     else:
-        if (check1 <= 6):  # IF checking value Equals 5
+        if (check1 >= 6):  # IF checking value Equals 5
             print("BINGO! Player 1 WON")
 
         else:
