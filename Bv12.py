@@ -98,8 +98,8 @@ def func2(P1, P2, num, bool, check1, check2, z, b, c, d, e, f, g, h, i, j, k, l,
      # CONDITIONS FOR WIN
     check1 = z+b+c+d+e+f
    # print("check1=",check1)
-   # check2=g+h+i+j+k+l
-    print("check2=", check2)
+    check2=g+h+i+j+k+l
+   # print("check2=", check2)
 
     # Making a new logic from checking conditions of two players for further logic
     if (check1 < 6 and check2 < 6):
